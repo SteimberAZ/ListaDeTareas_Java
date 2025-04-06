@@ -63,6 +63,7 @@ public class Main extends Application {
             System.out.println("¡Botón presionado!");
 
             Label newlabel = new Label(input1.getText());
+            input1.clear();
             newlabel.setWrapText(true);
             newlabel.setPrefWidth(280);
             newlabel.setAlignment(Pos.CENTER);
